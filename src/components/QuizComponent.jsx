@@ -58,6 +58,7 @@ export default function QuizComponent(props) {
           className="answer-input"
           onChange={(e) => setAnswer(e.target.value)}
           value={answer}
+          type="number"
         ></Input>
         <button className="button-quiz" onClick={submit}>
           Submit
