@@ -144,8 +144,7 @@ function App() {
               <h4>
                 {questionCount !== 0 ? (
                   <>
-                    Your speed is {(questionCount / maxValue).toFixed(2)} of
-                    total number of questions / second
+                    Your speed is {(questionCount / maxValue).toFixed(2)} questions / second
                   </>
                 ) : null}
               </h4>
